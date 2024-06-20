@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="form-sec" >
+        <div class="nav-bar">
+            <div class="nav-items">Home</div>
+            <div class="nav-items">About</div>
+            <div class="nav-items">Contact us</div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <h1>USED CAR PRICE PREDICTION</h1>
+                <p>Get an estimate of your car selling price in seconds</p>
+            </div>
+            <div class="form" id="form">
+                <label>Company</label>
+                <select  id="company">
+                    <option>select company </option> 
+                    <option id="lpg">benz</option>
+                    <option id="petrol">t</option>
+                    <option id="Diesel">Diesel</option>
+                </select>
+                <label>Model</label>
+                <select  id="fuel">
+                    <option>select Fuel Type</option> 
+                    <option id="lpg">LPG</option>
+                    <option id="petrol">Petrol</option>
+                    <option id="Diesel">Diesel</option>
+                </select>
+                <label>year of purchase</label>
+            </select>
+
+                <select id="transmission">
+                    <option>select transmission Type</option>
+                    <option id="manual">Manual </option>
+                    <option id="automatic">Automatic</option>
+                </select>
+                <label>Showroom Price(in lakhs)</label>
+                <select id="transmission">
+                    <option>select transmission Type</option>
+                    <option id="manual">Manual </option>
+                    <option id="automatic">Automatic</option>
+                </select>
+                <label>Fuel Type</label>
+            </select>
+                
+                <label>Transmission Type</label>
+                <select id="transmission">
+                    <option>select transmission Type</option>
+                    <option id="manual">Manual </option>
+                    <option id="automatic">Automatic</option>
+                </select>
+                <button type="button" onclick="price()">calculate Selling Price</button>
+                
+            
+            </div>
+        </div>
+    </div>
+    <script>
+
+
+        
+        
+        function price(){
+            const name=document.getElementById("form");
+            const mod=document.getElementById("model");
+            const year=document.getElementById("year");
+            const amt=document.getElementById("amount");
+            const fuel=document.getElementById("fuel");
+            const trans=document.getElementById("tranmission");
+           
+           }
+        
+    </script>
+    </body>
+</html>
